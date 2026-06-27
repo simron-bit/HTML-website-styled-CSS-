@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Stack Sans Text", sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(255, 247, 230,0.8);
+    color: #102e4a;
+    box-shadow: 2px 0px 20px rgb(250, 222, 160)
+}
+
+#brand {
+    padding: 1.25rem 3.125rem;
+}
+
+#hyperlinks {
+    padding: 2rem;
+}
+
+#hyperlinks a{
+    text-decoration: none;
+    color: rgb(16, 46, 74);
+    margin: 0rem 0.5rem;
+    opacity: 0.8;
+}
+
+#hyperlinks a:hover {
+    opacity:1;
+    text-decoration: underline;
+}
+
+/*media queries for 3-5 devices*/
+@media (max-width:859px) {
+    main {
+        flex-direction:column;
+    }
+}
+
+@media (max-width:760px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:416px) {
+    #hyperlinks {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+#background {
+    background-image: url("Желтый\ |\ Yellow\ to\ white\ gradient\ background\,\ White\ and\ yellow\ background\ hd.jpg");
+    background-size: cover;
+}
+
+#background main div {
+    width: 40%;
+    background-color: rgba(255, 247, 230,0.5);
+    border: 3px solid #102e4a;
+    border-radius: 2rem;
+}
+
+main {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 6.25rem 0rem;
+}
+
+main div {
+    padding: 0.625rem 2rem;
+    color: #102e4a;
+}
+
+main div h2 {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+#foot {
+    margin:2rem auto;
+    width: 80%;
+    background-color: rgba(255, 247, 230,0.5);
+    border: 3px solid #102e4a;
+    border-radius: 2rem;
+    padding: 0.625rem 2rem;
+    color: #102e4a;
+}
+
+#foot h2 {
+    text-align: center;
+     padding: 0px 0px 20px 0px;
+}
+
