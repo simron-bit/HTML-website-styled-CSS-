@@ -54,7 +54,6 @@ nav {
     }
 }
 
-
 #background {
     background-image: url("Желтый\ |\ Yellow\ to\ white\ gradient\ background\,\ White\ and\ yellow\ background\ hd.jpg");
     background-size: cover;
@@ -100,5 +99,28 @@ main div h2 {
 #foot h2 {
     text-align: center;
      padding: 0px 0px 20px 0px;
+}
+
+#box {
+    width: 40%;
+    border: 3px solid #102e4a;
+    background-color: rgba(255, 247, 230,0.5);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+#box input,textarea {
+    border-radius: 1rem;
+}
+
+#box #action,#email,#message {
+    margin: 1rem 0rem;
+}
+
+#message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
