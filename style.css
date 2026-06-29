@@ -4,14 +4,19 @@
     font-family: "Stack Sans Text", sans-serif;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 nav {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgba(255, 247, 230,0.8);
+    background-color: rgba(255, 247, 230,1);
     color: #102e4a;
-    box-shadow: 2px 0px 20px rgb(250, 222, 160)
+    box-shadow: 2px 0px 20px rgb(250, 222, 160);
 }
 
 #brand {
@@ -36,7 +41,7 @@ nav {
 
 /*media queries for 3-5 devices*/
 @media (max-width:859px) {
-    main {
+    #index-main {
         flex-direction:column;
     }
 }
@@ -66,7 +71,7 @@ nav {
     border-radius: 2rem;
 }
 
-main {
+#index-main {
     display: flex;
     height: auto;
     flex-direction: row;
@@ -76,12 +81,12 @@ main {
     padding: 6.25rem 0rem;
 }
 
-main div {
+#index-main div {
     padding: 0.625rem 2rem;
     color: #102e4a;
 }
 
-main div h2 {
+#index-main div h2 {
     text-align: center;
     padding: 0px 0px 20px 0px;
 }
@@ -98,8 +103,10 @@ main div h2 {
 
 #foot h2 {
     text-align: center;
-     padding: 0px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
 }
+
+/* Contact-page Styling */
 
 #box {
     width: 40%;
@@ -108,6 +115,8 @@ main div h2 {
     border-radius: 2rem;
     text-align: center;
     padding: 2rem 0rem;
+    margin: auto;
+    margin-top: 3rem;
 }
 
 #box input,textarea {
